@@ -1,14 +1,15 @@
-# Entorno virtual
-venv/
+# Python
 __pycache__/
+*.pyc
+venv/
+.venv/
+ENV/
 
-# Archivos de logs
-*.log
-
-# Configuración local
+# Entorno
 .env
-*.sqlite3
 
-# Archivos de sistema
-.DS_Store
-Thumbs.db
+# Archivos innecesarios para deploy
+*.rar
+*.bat
+start.bat
+Proyecto-Danna.rar
