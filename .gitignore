@@ -1,0 +1,14 @@
+# Entorno virtual
+venv/
+__pycache__/
+
+# Archivos de logs
+*.log
+
+# Configuración local
+.env
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
